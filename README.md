@@ -34,21 +34,3 @@ The solver employs **backtracking** and **iterative deepening** to explore all p
    python main.py
    ```
    The solver will display the initial state (all lights on) and, if successful, print out the solution grid with the button presses.
-
-### Example Output
-For a 4x4 grid, the program prints the initial state:
-```
-Initial State:
-1111
-1111
-1111
-1111
-```
-And once a solution is found, it prints:
-```
-N: 4
-.*..
-*.*.
-..*.
-*...
-```
